@@ -1,0 +1,80 @@
+*{
+  transition: all 0.3s ease-in-out;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  padding: 5px;
+}
+.logo {
+  height: 10vh;
+  width: max-content;
+  mix-blend-mode: darken;
+  object-fit: cover;
+  transform: scale(1.2);
+}
+.nav-items {
+  padding-right: 20px;
+  font-size: 1.1rem;
+}
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+}
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+.nav-items > ul > li:hover {
+  text-decoration: underline;
+}
+.what-in-mind-title{
+  text-align: center;
+}
+.what-in-mind {
+  display: flex;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.what-in-mind-card {
+  height: 200px;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+}
+.what-in-mind-card:hover{
+  transform: scale(0.99);
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+.what-in-mind-card img {
+  height: 100%;
+  width: auto;
+}
+.restaurant-card{
+  margin: 5px;
+}
+.restaurant-card:hover{
+  transform: scale(0.99);
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+.restaurant-img-card{
+  height: 250px;
+  width: auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+.restaurant-img-card img{
+  height: 100%;
+  width: auto;
+}
+.restaurant-card-dtls{
+  text-align: center;
+  padding: 10px;
+}
